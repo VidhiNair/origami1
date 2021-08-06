@@ -1,0 +1,44 @@
+h1 {
+    color: black;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+img{
+    border:solid;
+    border-color:pink;
+    border-radius:110px;
+}
+.header{
+    background-color: rgb(166, 166, 240);
+    display: flex;
+    padding-left:900px;
+    margin-top:50px;
+    justify-content: space-between ;
+}
+.grid{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    background-color:  #abcdef ;
+}
+p, h2 {
+text-align: center;
+color: rgb(0, 0, 0);
+font-style: italic;
+}
+
+.item{
+    padding:25px;
+    margin:50px;
+    border: solid;
+    border-color: rgb(219, 0, 135);
+    border-radius: 110px;
+}
